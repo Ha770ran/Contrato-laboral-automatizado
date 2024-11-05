@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contract Automation</title>
+</head>
+<body>
+    <h1>Create a New Contract</h1>
+    <form action="/create" method="post">
+        <label for="contract_number">Número de Contrato:</label>
+        <input type="text" id="contract_number" name="contract_number" required><br><br>
+        
+        <label for="contract_date">Fecha del Contrato:</label>
+        <input type="text" id="contract_date" name="contract_date" required><br><br>
+
+        <label for="employer_name">Nombre del Empleador:</label>
+        <input type="text" id="employer_name" name="employer_name" required><br><br>
+
+        <label for="employer_nit">Empleador NIT:</label>
+        <input type="text" id="employer_nit" name="employer_nit" required><br><br>
+
+        <label for="legal_representative">Nombre Representante Legal:</label>
+        <input type="text" id="legal_representative" name="legal_representative" required><br><br>
+
+        <label for="legal_representative_id">Representante Legal Numero CC:</label>
+        <input type="text" id="legal_representative_id" name="legal_representative_id" required><br><br>
+
+        <label for="employer_address">Dirección del Empleador:</label>
+        <input type="text" id="employer_address" name="employer_address" required><br><br>
+
+        <label for="worker_name">Nombre del Trabajador:</label>
+        <input type="text" id="worker_name" name="worker_name" required><br><br>
+        
+        <label for="worker_id">CC del Trabajador:</label>
+        <input type="text" id="worker_id" name="worker_id" required><br><br>
+        
+        <label for="worker_city">Ciudad donde reside el trabajador:</label>
+        <input type="text" id="worker_city" name="worker_city" required><br><br>
+        
+        <label for="worker_address">Dirección del trabajador:</label>
+        <input type="text" id="worker_address" name="worker_address" required><br><br>
+        
+        <label for="worker_phone">Numero celular del trabajador:</label>
+        <input type="text" id="worker_phone" name="worker_phone" required><br><br>
+        
+        <label for="worker_email">Correo electronico del trabajador:</label>
+        <input type="text" id="worker_email" name="worker_email" required><br><br>
+        
+        <label for="worker_birthdate">Fecha nacimiento del Trabajado:</label>
+        <input type="text" id="worker_birthdate" name="worker_birthdate" required><br><br>
+        
+        <label for="worker_birthplace">Lugar nacimiento del Trabajador:</label>
+        <input type="text" id="worker_birthplace" name="worker_birthplace" required><br><br>
+        
+        <label for="worker_position">Cargo del Trabajador:</label>
+        <input type="text" id="worker_position" name="worker_position" required><br><br>
+        
+        <label for="project_name">Nombre del Proyecto o Area:</label>
+        <input type="text" id="project_name" name="project_name" required><br><br>
+        
+        <label for="project_city">Ciudad donde ejecutara la labor:</label>
+        <input type="text" id="project_city" name="project_city" required><br><br>
+        
+        <label for="salary">Salario:</label>
+        <input type="text" id="salary" name="salary" required><br><br>
+        
+        <label for="payment_frequency">Frecuencia de pago:</label>
+        <input type="text" id="payment_frequency" name="payment_frequency" required><br><br>
+        
+        <label for="contract_start_date">Fecha de inicio:</label>
+        <input type="text" id="contract_start_date" name="contract_start_date" required><br><br>
+        
+        <label for="contract_duration_percentage">Porcentaje de duración del contrato:</label>
+        <input type="text" id="contract_duration_percentage" name="contract_duration_percentage" required><br><br>
+        
+        <label for="emergency_contact_name">Contacto de emergencia:</label>
+        <input type="text" id="emergency_contact_name" name="emergency_contact_name" required><br><br>
+        
+        <label for="emergency_contact_phone">Numero del contacto de emergencia:</label>
+        <input type="text" id="emergency_contact_phone" name="emergency_contact_phone" required><br><br>
+
+        <button type="submit">Create Contract</button>
+    </form>
+</body>
+</html>
